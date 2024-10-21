@@ -38,28 +38,17 @@ npm install
 
 This section provides common command line commands for managing and interacting with the Shopping List App.
 
-### Starting the Development Server
+### Usage
 To run the application in development mode, use the following command:
 
 ```bash
 npm start
 ```
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -110,3 +99,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Component Structure
+## Project Structure
+
+```plaintext
+shopping-list-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── Button/
+|   |       ├── Button.js
+│   │   ├── FormItem/
+|   |       ├── FormItem.js
+|   |   ├── Header
+|   |       ├── Header.js
+│   │    Item.js
+│   │   └── ItemList.js
+│   ├── context/
+│   │   └── ShoppingListContext.js
+│   ├── hooks/
+│   │   └── useShoppingList.js
+│   ├── styles/
+│   │   └── App.css
+│   ├── App.js
+│   ├── index.js
+│   └── App.test.js
+├── package.json
+└── README.md
+
+
+
+## State Management
+Global State: Managed using React Context API to hold\
+the shopping list items.
+Local State: Used in AddItemForm to manage the input values.
+
+## Contributing
+If you would like to contribute to this project:
+- Fork the repository
+- Create a new branch (git checkout -b feature/YourFeature)
+- Make your changes and commit them
+- Push to the branch (git push origin feature/YourFeature)
+- Open a Pull Request
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
