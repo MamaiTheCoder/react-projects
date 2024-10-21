@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Project Name:** Shopping List App
+**Project Name:** Shopping List App\
 **Description:** A simple web application for creating and managing a shopping list. Users can add items.
 
 
@@ -100,7 +100,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Component Structure
 ## Project Structure
 
 ```plaintext
@@ -137,7 +136,7 @@ shopping-list-app/
 ├── .gitignore
 ├── package-lock.json
 └── README.md
-
+```
 
 
 ## State Management
