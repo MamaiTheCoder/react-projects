@@ -111,23 +111,31 @@ shopping-list-app/
 ├── src/
 │   ├── components/
 │   │   ├── Button/
-|   |       ├── Button.js
+|   |   |   └── Button.js
 │   │   ├── FormItem/
-|   |       ├── FormItem.js
+|   |   |   └── FormItem.js
 |   |   ├── Header
-|   |       ├── Header.js
-│   │    Item.js
-│   │   └── ItemList.js
+|   |   |   └── Header.js
+|   |   ├── NavBar/
+|   |   |   └── NavBar.js
+|   |   └── ListItem/
+|   |       └── ListItem.js
 │   ├── context/
-│   │   └── ShoppingListContext.js
+|   |       ├── AppContext.js
+|   |       ├── ItemsContext.js
+│   │       └── ShoppingListContext.js
 │   ├── hooks/
-│   │   └── useShoppingList.js
-│   ├── styles/
-│   │   └── App.css
+│   │       └── useDataFetching.js
+│   ├── pages/
+|   |       ├── ListDetail.js
+|   |       ├── ListForm.js
+│   │       └── Lists.js
 │   ├── App.js
-│   ├── index.js
-│   └── App.test.js
+│   ├── App.test.js
+│   └── index.js
 ├── package.json
+├── .gitignore
+├── package-lock.json
 └── README.md
 
 
