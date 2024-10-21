@@ -33,7 +33,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone https://github.com/MamaiTheCoder/react-projects.git
 cd 0x01-shopping-list
 npm install
-
+```
 ## Command Line Interface
 
 This section provides common command line commands for managing and interacting with the Shopping List App.
@@ -43,7 +43,7 @@ To run the application in development mode, use the following command:
 
 ```bash
 npm start
-
+```
 ## Available Scripts
 
 In the project directory, you can run:
