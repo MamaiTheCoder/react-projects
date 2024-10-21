@@ -1,6 +1,48 @@
+# Shopping List App Documentation
+
+## Overview
+
+**Project Name:** Shopping List App
+**Description:** A simple web application for creating and managing a shopping list. Users can add items.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Command Line Interface](#command-line-interface)
+- [Features](#features)
+- [API Endpoints](#api-endpoints)
+- [Data Models](#data-models)
+- [Component Structure](#component-structure)
+- [State Management](#state-management)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+**Prerequisites:** Node.js and npm/yarn.
+
+**Instructions:**
+```bash
+git clone https://github.com/MamaiTheCoder/react-projects.git
+cd 0x01-shopping-list
+npm install
+
+## Command Line Interface
+
+This section provides common command line commands for managing and interacting with the Shopping List App.
+
+### Starting the Development Server
+To run the application in development mode, use the following command:
+
+```bash
+npm start
 
 ## Available Scripts
 
